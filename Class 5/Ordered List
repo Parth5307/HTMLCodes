@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav><a href="orderedlist.html">Ordered List</a> &nbsp; &nbsp; <a href="unorderedlist.html">Unordered List</a> &nbsp; &nbsp; <a href="descriptive.html">Descriptive List</a> &nbsp;  &nbsp; <a href="mixed.html">Mixed List</a></nav>
+    <h1>Contents</h1>
+
+    <ol>
+        <li>Food</li>
+        <li>Material</li>
+        <li>The World Of The Living</li>
+    </ol>
+
+    <ol type="A">
+        <li>Food</li>
+        <li>Material</li>
+        <li>The World Of The Living</li>
+    </ol>
+
+    <ol type="a">
+        <li>Food</li>
+        <li>Material</li>
+        <li>The World Of The Living</li>
+    </ol>
+
+    <ol type="i">
+        <li>Food</li>
+        <li>Material</li>
+        <li>The World Of The Living</li>
+    </ol>
+
+    <ol type="I">
+        <li>Food</li>
+        <li>Material</li>
+        <li>The World Of The Living</li>
+    </ol>
+
+    <h1>Reversed Ordered Lists</h1>
+    <ol reversed>
+        <li>Food</li>
+        <li>Material</li>
+        <li>The World Of The Living</li>
+    </ol>
+
+    <ol type="A" reversed>
+        <li>Food</li>
+        <li>Material</li>
+        <li>The World Of The Living</li>
+    </ol>
+
+    <h1>Start Dynamiclly</h1>
+    <ol type="1" start="3">
+        <li>Food</li>
+        <li>Material</li>
+        <li>The World Of The Living</li>
+        <li>Living beings</li>
+        <li>Crops</li>
+    </ol>
+
+    <h1>Start Dynamiclly</h1>
+    <ol type="a" start="3">
+        <li>Food</li>
+        <li>Material</li>
+        <li>The World Of The Living</li>
+        <li>Living beings</li>
+        <li>Crops</li>
+    </ol>
+<h1>Next</h1>
+    <ol>
+        <li>Food
+            <ol type="i">
+                <li>Introduction</li>
+                <li>Veg
+                    <ol type="a">
+                        <li>Humans</li>
+                        <li>Animals</li>
+                    </ol>
+                </li>
+                <li>Non-Veg</li>
+            </ol>
+        </li>
+        <li>Material</li>
+        <li>The World Of The Living</li>
+    </ol>
+</body>
+</html>
