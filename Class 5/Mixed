@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed</title>
+</head>
+<body>
+    <nav><a href="orderedlist.html">Ordered List</a> &nbsp; &nbsp; <a href="unorderedlist.html">Unordered List</a> &nbsp; &nbsp; <a href="descriptive.html">Descriptive List</a> &nbsp;  &nbsp; <a href="mixed.html">Mixed List</a></nav>
+    <h1>Ordered List in Unordered List</h1>
+    <ul>
+        <li>Assam
+            <ol>
+                <li>Dispur</li>
+                <li>Guwahati</li>
+            </ol>
+        </li>
+        <li>Harayana
+            <ol>
+                <li>Hisar</li>
+                <li>Panipat</li>
+                <li>Sonipat</li>
+            </ol>
+        </li>
+        <li>UP</li>
+    </ul>
+</body>
+</html>
