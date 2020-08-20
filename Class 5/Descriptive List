@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Description</title>
+</head>
+<body>
+    <nav><a href="orderedlist.html">Ordered List</a> &nbsp; &nbsp; <a href="unorderedlist.html">Unordered List</a> &nbsp; &nbsp; <a href="descriptive.html">Descriptive List</a> &nbsp;  &nbsp; <a href="mixed.html">Mixed List</a></nav>
+    <h1>Descriptive List</h1>
+   <dl>
+       <dt>Home</dt>
+       <dd>A Place To Live</dd>
+       <br>
+       <dt>Website</dt>
+       <dd>A collection of Webpages</dd>
+       <br>
+       <dt>Home</dt>
+       <dt>House</dt>
+       <dd>A Place To Live</dd>
+       <br>
+       <dt>Website</dt>
+       <dd>A collection of Webpages</dd>
+       <dd>A collection of Webpages</dd>
+   </dl> 
+</body>
+</html>
