@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists</title>
+</head>
+<body>
+    <nav><a href="orderedlist.html">Ordered List</a> &nbsp; &nbsp; <a href="unorderedlist.html">Unordered List</a> &nbsp; &nbsp; <a href="descriptive.html">Descriptive List</a> &nbsp;  &nbsp; <a href="mixed.html">Mixed List</a></nav>
+    <h1>Countries</h1>
+    <ul>
+        <li>India</li>
+        <li>Canada</li>
+        <li>Australia</li>
+        <li>USA</li>
+        <li>Nepal</li>
+    </ul>
+    <ul type="circle">
+        <li>India</li>
+        <li>Canada</li>
+        <li>Australia</li>
+        <li>USA</li>
+        <li>Nepal</li>
+    </ul>
+
+    <ul type="square">
+        <li>India</li>
+        <li>Canada</li>
+        <li>Australia</li>
+        <li>USA</li>
+        <li>Nepal</li>
+    </ul>
+
+    <ul type="disc">
+        <li>India</li>
+        <li>Canada</li>
+        <li>Australia</li>
+        <li>USA</li>
+        <li>Nepal</li>
+    </ul>
+
+    <ul type="triangle">
+        <li>India</li>
+        <li>Canada</li>
+        <li>Australia</li>
+        <li>USA</li>
+        <li>Nepal</li>
+    </ul>
+
+    <h1>Cities In States Of India</h1>
+    <ul>
+        <li>India
+            <ul>
+                <li>UP
+                    <ul>
+                        <li>Noida</li>
+                        <li>Allahabad</li>
+                        <li>Lucknow</li>
+                        <li>Varanasi</li>
+                    </ul>
+                </li>
+                <li>Assam
+                    <ul>
+                        <li>Dispur</li>
+                        <li>Guwahati</li>
+                        <li>Norgaon</li>
+                    </ul>
+                </li>
+                <li>Haryana
+                    <ul>
+                        <li>Hisar</li>
+                        <li>Panipat</li>
+                        <li>Jind</li>
+                    </ul>
+                </li>
+                <li>Maharashtra</li>
+            </ul>
+        </li>
+
+        <li>Canada</li>
+        <li>Australia</li>
+        <li>USA</li>
+        <li>Nepal</li>
+    </ul>
+</body>
+</html>
