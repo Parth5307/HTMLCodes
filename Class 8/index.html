@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+
+    <!--bgcolor se head/row/cell/body/puri table kisi ka bhi kar le-->
+
+    <h1>Time Table</h1>
+    <table border="10" cellpadding="10" cellspacing="8" bgcolor="aquamarine">
+        <thead align="center">
+            <tr>
+                <th colspan="8" bgcolor="aqua">My School Time Table</th></tr>
+        </thead>
+        <tbody align="center" bgcolor="yellow">
+            <tr bgcolor="red">
+                <td></td>
+                <th scope="col">Monday</th>
+                <th scope="col">Tuesday</th>
+                <th scope="col">Wednesday</th>
+                <th scope="col">Thursday</th>
+                <th scope="col">Friday</th>
+                <th scope="col">Saturday</th>
+                <th scope="col">Sunday</th>
+            </tr>
+            <tr>
+                <th scope="row">10 AM</th>
+                <td>SSt</td>
+                <td>English</td>
+                <td>English</td>
+                <td>Maths</td>
+                <td rowspan="3">Geo</td>
+                <td rowspan="4" colspan="2">Holiday</td>
+            </tr>
+            <tr>
+                <th scope="row">11 AM</th>
+                <td>SSt</td>
+                <td>English</td>
+                <td>English</td>
+                <td>Maths</td>
+            </tr>
+            <tr>
+                <th scope="row">12 AM</th>
+                <td>SSt</td>
+                <td>English</td>
+                <td>English</td>
+                <td>Maths</td>
+            </tr>
+            <tr>
+                <th scope="row">1 PM</th>
+                <td colspan="5">Break</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr><td align="center" colspan="8">This is my timetable</td></tr>
+        </tfoot>
+    </table>
+</body>
+</html>
