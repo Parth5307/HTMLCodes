@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body bgcolor="aquamarine">
+    <h1>For participation in our sports tournament you will have to fill this form</h1>
+    <form>
+        <fieldset>
+            <legend><h2>Information about Yourself</h2></legend>
+            <label for="first_name">First Name :</label>
+            <input
+            type="text"
+            name="first_name"
+            id="first_name"
+            placeholder="First name"
+            required
+            />
+            <label for="last_name">Last Name :</label>
+            <input
+            type="text"
+            name="last_name"
+            id="last_name"
+            placeholder="Last name"
+            required
+            />
+            <br><br>
+
+            <label for="gender">Gender : </label>
+            <input type="radio" name="gender" />Male
+            <input type="radio" name="gender" />Female
+            <input type="radio" name="gender" />Others
+            <br><br>
+
+            <label for="date_of_birth">Date of Birth : </label>
+            <input
+            type="date"
+            name="dob"
+            id="dob"
+            required
+            />
+            <br><br>
+
+            <label for="emailid">Email Id : </label>
+            <input
+            type="email"
+            name="emailid"
+            id="emailid"
+            placeholder="abc@xyz.com"
+            required
+            />
+            <br><br>
+
+            <label for="phone">Phone Number : </label>
+            <input
+            type="tel"
+            name="phone"
+            id="phone"
+            placeholder="+91"
+            required
+            />
+            <br><br>
+
+            <label for="height">Height : </label>
+            <input
+            type="number"
+            name="height"
+            id="height"
+            placeholder="in m"
+            required
+            />
+            <br><br>
+
+            <label for="weight">Weight : </label>
+            <input
+            type="number"
+            name="weight"
+            id="weight"
+            placeholder="in kg"
+            required
+            />
+            <br><br>
+        </fieldset>
+        <br><br><br>
+
+        <fieldset>
+            <legend><h2>School Information</h2></legend>
+            <label for="class">Class : </label>
+            <input
+            type="number"
+            name="class"
+            id="class"
+            required
+            />
+            <br><br>  
+            
+            <label for="schoolname">Name of your school : </label>
+            <input
+            type="text"
+            name="schoolname"
+            id="schoolname"
+            required
+            />
+            <br><br>
+
+            <label for="marksheet">Previous Year Marksheet : </label>
+            <input
+            type="file"
+            name="marksheet
+            id="marksheet"
+            placeholder="Upload File"
+            required
+            />
+            <br><br>
+        </fieldset>
+        <br><br><br>
+        <fieldset>
+            <legend><h2>Interests and Other Things</h2></legend>
+            <label for="subject">Choose Your Favourite Subject : </label>
+            <select name="subject" id="subject">
+                <option value="Maths">Maths</option>
+                <option value="English">English</option>
+                <option value="Hindi">Hindi</option>
+                <option value="Science">Science</option>
+                <option value="SSt">SST</option>
+                <option value="Others">Others</option>
+            </select>
+            <br><br>
+
+            <label for="fav_color">Choose your favourite color</label>
+            <input type="color" required/>
+            <br><br>
+
+            <label for="sport1">First Sport you want to participate in : </label>
+            <input
+            type="text"
+            name="sport1"
+            id="sport1"
+            required
+            />
+            <br><br>
+
+            <label for="sport2">Second Sport you want to participate in : </label>
+            <input
+            type="text"
+            name="sport2"
+            id="sport2"
+            required
+            />
+        </fieldset>
+        <br><br><br>
+
+        <fieldset>
+            <legend><h2>Coding Blocks Junior Feedback</h2></legend>
+            <label for="languages">What all are you learning from CBJR : </label><br>
+            <input type="checkbox" name="languages" />Block Progamming<br>
+            <input type="checkbox" name="languages" />Python<br>
+            <input type="checkbox" name="languages" />Web Development<br>
+            <input type="checkbox" name="languages" />Robotics
+            <br><br>
+
+            <label for="review">How is your experience with CBJR : </label>
+            <input type="radio" name="review" />Very Bad
+            <input type="radio" name="review" />Bad
+            <input type="radio" name="review" />Good 
+            <input type="radio" name="review" />Very Good
+            <br><br>
+
+            <label for="feedback">Any feedback you will like to give? </label>
+            <input type="text" name="feedback" />
+        </fieldset>
+        <br><br>
+        <input type="submit" value="Submit Form" />
+    </form>
+</body>
+</html>
