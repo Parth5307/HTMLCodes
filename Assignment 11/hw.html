@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 9</title>
+</head>
+<body style="background-color: aqua;">
+    <h1>Reservation Request</h1>
+    <form>
+    <fieldset>
+        <legend><h2>
+            General Information
+        </h2></legend>
+        <label for="date">Arrival Date :</label>
+        <input type=date>
+        <br><br>
+        <label for="nights">Nights :</label>
+        <input type=number required>
+        <br><br>
+        <label for="adults">Adults :</label>
+        <input type="text" list="list1" />
+        <datalist id="list1">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+        </datalist>
+        <br><br>
+        <label for="children">Children :</label>
+        <input type="text" list="list1" />
+        <br><br>
+    </fieldset>
+    <fieldset>
+        <legend><h2>Preferences</h2></legend>
+        <label for="room_type">Room Type :</label>
+        <input type="radio" name="room" />Standard
+        <input type="radio" name="room" />Business
+        <input type="radio" name="room" />Suite
+        <br><br>
+        <label for="bed_type">Room Type :</label>
+        <input type="radio" name="bed" />King
+        <input type="radio" name="bed" />Double Double
+        <br><br>
+
+        <label for="smoking"></label>
+        <input type="checkbox">Smoking
+        <br><br>
+
+        <label for="food">Food Options :</label>
+        <input type="text" list="list2" />
+        <datalist id="list2">
+          <option>Veg</option>
+          <option>Non-Veg</option>
+          <option>Both</option>
+        </datalist>
+    </fieldset>
+    <fieldset>
+        <legend><h2>Contact Information :</h2></legend>
+        <label for="name">Name :</label>
+        <input type="text">
+        <br><br>
+        <label for="email">Email :</label>
+        <input type="email">
+        <br><br>
+        <label for="phone">Phone :</label>
+        <input type="number" pattern="[1-9]{1}[0-9]{9}">
+        <br><br>
+        <label for="password">Password :</label>
+        <input type="password" pattern="[Cc]oding[Bb]locks|captain|sky">
+        <br><br>
+        </fieldset>
+    <fieldset>
+        <legend><h2>Distance Information :</h2></legend>
+        <label for="fuel">Fuel meter :</label>
+        <meter
+          name="fuel"
+          id="fuel"
+          min="0"
+          max="100"
+          value="34"
+        ></meter>
+        <br><br>
+        <label for="prog">Progress bar :</label>
+        <progress id="prog" name="prog" max="100" value="90"></progress>
+        <br><br>
+        <label for="box">Write about your place of visit :</label><br>
+        <textarea
+          name="box"
+          id="box"
+          cols="30"
+          rows="10"
+          placeholder="Enter your paragraph"
+        ></textarea>
+        <br>
+        </fieldset>
+        <br><br>        
+        <input type="submit" value="Submit Form" />
+    </form>    
+</body>
+</html>
